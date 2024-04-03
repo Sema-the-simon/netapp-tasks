@@ -2,9 +2,9 @@ package smtpClient
 
 fun main() {
 
-    val simpleClientSetUp = arrayOf("smtp.gmail.com", "abc@gmail.com", "test@gmail.com", "Hello WORLD i'm using SMTP")
+    val simpleClientSetUp = arrayOf("smtp.mail.ru", "abc@gmail.com", "test@gmail.com", "Hello WORLD i'm using SMTP")
     val sslClientSetUp =
-        arrayOf("ssl", "smtp.gmail.com", "1@gmail.com", "2@gmail.com", "Hello WORLD i'm using safe SMTP")
+        arrayOf("ssl", "smtp.yandex.com", "1@gmail.com", "2@gmail.com", "Hello WORLD i'm using safe SMTP")
 
     runModel(sslClientSetUp)
 }
